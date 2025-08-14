@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="main-title">I'm Back!</h1>
+    <p>Hi! My name is Jemar Brent Gullunan</p>
+
+    <img src="./assests/profile.jpg" alt="Profile">
+
+    <ul>
+        <h2>Class Expectation</h2>
+        <p>I expect to understand the topics easily.</p>
+        <p>I expect to improve my HTML coding skills.</p>
+        <p>I expect to pass this subject.</p>
+    </ul>
+        
+    <ul>
+        <h2>Subject Expectation</h2>
+        <p>I expect to understand the subject topics.</p>
+        <p>I expect to learn new topics.</p>
+        <p>I expect to enhance my skills.</p>
+    </ul>
+
+    <ul>
+        <h2>Future PHP Projects</h2>
+        <p>Personal Portfolio Website</p>
+        <p>Simple Blog Platform</p>
+        <p>Online Games</p>
+    </ul>
+
+    <button onclick="document.body.style.backgroundImage='none'; document.body.style.backgroundColor= 'none'; document.querySelectorAll('p').forEach(p => p.style.color='black')">Reset Colors</button>
+    <button onclick="document.body.style.backgroundImage='none'; document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16)">Change Background Color</button>
+    <button onclick="document.querySelectorAll('p').forEach(p => p.style.color = '#' + Math.floor(Math.random()*16777215).toString(16))">Change Paragraph Color</button>
+</body>
+</html>
